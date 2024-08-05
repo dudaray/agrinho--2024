@@ -1,3 +1,9 @@
+
+:root{
+  --cor-branca: #fff;
+
+
+}
 .menu-h ul{
     list-style: none;
     padding: 0 30%;
@@ -9,7 +15,7 @@
   }
   
   .menu-h ul li a{
-    color: #FFFFFF;
+    color: var(--cor-branca);
     padding: 15px;
     display: inline-block;
     text-decoration: none;
