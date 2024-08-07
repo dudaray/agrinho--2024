@@ -1,13 +1,13 @@
 
 :root{
   --cor-branca: #fff;
-
+  --cor-marrom: rgb(80, 48, 0)
 
 }
 .menu-h ul{
     list-style: none;
     padding: 0 30%;
-    background-color: rgb(80, 48, 0);   
+    background-color: var(--cor-marrom);   
   }
   
   .menu-h ul li{
@@ -51,7 +51,7 @@
   }
   
   p{
-    color: #ffffff;
+    color: var(--cor-branca);
     margin: 10px 50px 20px;
     margin-top: 3%;
     font-size: 50px;
@@ -99,7 +99,7 @@
   }
   
   p{
-    color: #ffffff;
+    color: var(--cor-branca);
     margin: 10px 50px 20px;
     margin-top: 3%;
     font-size: 30px;
@@ -107,5 +107,5 @@
 
   .organizacao{
     width: 100%;
-    background-color: black;
+    background-color: var(--cor-marrom);
   }
