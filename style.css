@@ -105,10 +105,6 @@
     font-size: 30px;
   }
 
-  .home-text.titulo__organizacao{
-    font-size: 60px;
-  }
-
   .organizacao{
     width: 100%;
     background-color: var(--cor-marrom);
